@@ -1,26 +1,9 @@
-# ── Core dashboard ──────────────────────────────────────────────────────
-streamlit==1.35.0
-pandas==2.2.2
-numpy==1.26.4
-plotly==5.22.0
-
-# ── AI / NLP ─────────────────────────────────────────────────────────────
-sentence-transformers==3.0.1
-scikit-learn==1.5.0
-torch==2.3.1
-transformers==4.41.2
-
-# ── Resume parsing ───────────────────────────────────────────────────────
-pdfplumber==0.11.0
-Pillow==10.3.0
-
-# ── Phase 5: Voice / Audio (install separately if needed) ─────────────
-# pip install openai-whisper          # Whisper STT (recommended)
-openai-whisper>=20231117
-# pip install SpeechRecognition pydub  # Fallback STT
-SpeechRecognition==3.10.4
-pydub==0.25.1
-soundfile==0.12.1
-
-# ── Report generation ────────────────────────────────────────────────────
-reportlab==4.2.0
+streamlit
+pandas
+numpy
+jinja2
+scikit-learn
+nltk
+lxml
+beautifulsoup4
+gdown
