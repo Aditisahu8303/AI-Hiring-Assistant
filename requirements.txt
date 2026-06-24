@@ -1,9 +1,5 @@
 streamlit
+pdfplumber
 pandas
 numpy
-jinja2
 scikit-learn
-nltk
-lxml
-beautifulsoup4
-gdown
